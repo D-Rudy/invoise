@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="048e2664-b312-410e-b1f4-7408101420eb" name="Changes" comment="add invoice entity">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="048e2664-b312-410e-b1f4-7408101420eb" name="Changes" comment=":construction: ajout de commzntaire" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,7 +54,7 @@
       <option name="presentableId" value="Default" />
       <updated>1662664430339</updated>
       <workItem from="1662664432548" duration="513000" />
-      <workItem from="1662700445278" duration="662000" />
+      <workItem from="1662700445278" duration="1289000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1662664460541</created>
@@ -80,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662664730444</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary=":construction: ajout de commzntaire">
+      <created>1662704994142</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662704994142</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +104,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="add invoice entity" />
-    <option name="LAST_COMMIT_MESSAGE" value="add invoice entity" />
+    <MESSAGE value=":construction: ajout de commzntaire" />
+    <option name="LAST_COMMIT_MESSAGE" value=":construction: ajout de commzntaire" />
   </component>
 </project>
