@@ -5,6 +5,7 @@
   <!-- =============================================================== -->
   <!-- Informations du projet -->
   <!-- =============================================================== -->
+
   <!-- ===== Informations Maven ===== -->
   <groupId>com.mycompany.invoise</groupId>
   <artifactId>core</artifactId>
