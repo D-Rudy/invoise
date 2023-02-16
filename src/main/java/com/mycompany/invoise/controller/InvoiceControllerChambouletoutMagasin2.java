@@ -5,7 +5,10 @@ import com.mycompany.invoise.service.InvoiceServiceInterface;
 
 import java.util.Scanner;
 
-public class InvoiceController implements InvoiceControllerInterface {
+public class InvoiceControllerChambouletoutMagasin2 implements InvoiceControllerInterface{
+
+    private InvoiceServiceInterface invoiceService;
+
     public InvoiceServiceInterface getInvoiceService() {
         return invoiceService;
     }
@@ -14,14 +17,13 @@ public class InvoiceController implements InvoiceControllerInterface {
         this.invoiceService = invoiceService;
     }
 
-    private InvoiceServiceInterface invoiceService;
+    @Override
     public void createInvoice(){
-        System.out.println( "What is the customer name?" );
-        Scanner sc = new Scanner(System.in);
-        String customerName = sc.nextLine();
-        Invoice invoice = new Invoice();
-        invoice.setCustomerName(customerName);
 
-        invoiceService.createInvoice(invoice);
-    }
+            System.out.println( "Usage of a scanner" );
+            Invoice invoice = new Invoice();
+            invoice.setCustomerName("Virgin Galactic");
+
+            invoiceService.createInvoice(invoice);
+        }
 }
