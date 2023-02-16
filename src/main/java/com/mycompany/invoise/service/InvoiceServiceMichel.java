@@ -9,7 +9,7 @@ public class InvoiceServiceMichel implements InvoiceServiceInterface{
     private InvoiceRepositoryInterface invoiceRepositoryMichel;
     public void createInvoice(Invoice invoice) {
 
-        invoice.setNumber(String.valueOf("INV_"+ (++lastNumber)));
+        invoice.setNumber("INV_"+ (++lastNumber));
         invoiceRepositoryMichel.create(invoice);
     }
 }
