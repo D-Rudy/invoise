@@ -4,13 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f526d2d9-7af7-447f-9a74-5832b27a886d" name="Changes" comment="Lesson #1 =&gt; entity, service, repository">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/controller/InvoiceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/controller/InvoiceControllerMichel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/repository/InvoiceRepositoryMichel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/service/InvoiceServiceMichel.java" afterDir="false" />
+    <list default="true" id="f526d2d9-7af7-447f-9a74-5832b27a886d" name="Changes" comment="Lesson #2 =&gt; entity, service, repository">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/controller/InvoiceControllerInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/repository/InvoiceRepositoryInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/service/InvoiceServiceInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/controller/InvoiceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/controller/InvoiceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/controller/InvoiceControllerMichel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/controller/InvoiceControllerMichel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/repository/InvoiceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/repository/InvoiceRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/repository/InvoiceRepositoryMichel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/repository/InvoiceRepositoryMichel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/service/InvoiceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/service/InvoiceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/service/InvoiceServiceMichel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/service/InvoiceServiceMichel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,13 +26,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="illustration" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -54,6 +60,9 @@
         <option name="workspaceImportEnabled" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2LmOvfNyWkOIuC42gwfTbxZNEbK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -112,7 +121,7 @@
       <updated>1676473024070</updated>
       <workItem from="1676473025309" duration="453000" />
       <workItem from="1676473672175" duration="255000" />
-      <workItem from="1676473947250" duration="5045000" />
+      <workItem from="1676473947250" duration="7453000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1676473441819</created>
@@ -135,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676476103895</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Lesson #2 =&gt; entity, service, repository">
+      <created>1676547542122</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676547542122</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +171,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="Lesson #1 =&gt; entity, service, repository" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson #1 =&gt; entity, service, repository" />
+    <MESSAGE value="Lesson #2 =&gt; entity, service, repository" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson #2 =&gt; entity, service, repository" />
   </component>
 </project>
