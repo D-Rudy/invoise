@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f526d2d9-7af7-447f-9a74-5832b27a886d" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/repository/InvoiceRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f526d2d9-7af7-447f-9a74-5832b27a886d" name="Changes" comment="Lesson #1 =&gt; entity, service, repository">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/controller/InvoiceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/controller/InvoiceControllerMichel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/repository/InvoiceRepositoryMichel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/service/InvoiceServiceMichel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/service/InvoiceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/service/InvoiceService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +81,12 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mycompany.invoise.repository" />
+      <recent name="com.mycompany.invoise.service" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="invoise" />
@@ -106,7 +112,7 @@
       <updated>1676473024070</updated>
       <workItem from="1676473025309" duration="453000" />
       <workItem from="1676473672175" duration="255000" />
-      <workItem from="1676473947250" duration="1983000" />
+      <workItem from="1676473947250" duration="5045000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1676473441819</created>
@@ -122,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676475025165</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Lesson #1 =&gt; entity, service, repository">
+      <created>1676476103895</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676476103895</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +154,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="Lesson #1 =&gt; entity, service, repository" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson #1 =&gt; entity, service, repository" />
   </component>
 </project>
