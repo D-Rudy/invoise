@@ -2,12 +2,17 @@ package com.mycompany.invoise.service;
 
 import com.mycompany.invoise.entity.Invoice;
 import com.mycompany.invoise.repository.InvoiceRepositoryInterface;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 
 
 public class InvoiceServicePrefix implements InvoiceServiceInterface {
-    private long lastNumber = 112L;
+    @Value("${invoice.lastNumber}")
+    private long lastNumber;
+    @Value("${invoice.prefix}")
     private String prefix;
 
+    @Autowired
     private InvoiceRepositoryInterface invoiceRepositoryMichel;
 
 
