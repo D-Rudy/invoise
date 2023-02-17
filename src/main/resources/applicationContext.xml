@@ -7,10 +7,6 @@
     http://www.springframework.org/schema/context
     https://www.springframework.org/schema/context/spring-context.xsd">
 
-    <context:annotation-config/>
-    <context:property-placeholder location="classpath:application.properties"/>
-    <context:component-scan base-package="com.mycompany.invoise.controller.scan"/>
-    <context:component-scan base-package="com.mycompany.invoise.service.number"/>
-    <context:component-scan base-package="com.mycompany.invoise.repository.database"/>
+
 
 </beans>
