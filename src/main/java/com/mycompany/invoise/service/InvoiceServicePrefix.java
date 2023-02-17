@@ -3,20 +3,13 @@ package com.mycompany.invoise.service;
 import com.mycompany.invoise.entity.Invoice;
 import com.mycompany.invoise.repository.InvoiceRepositoryInterface;
 
-import java.io.File;
 
 public class InvoiceServicePrefix implements InvoiceServiceInterface {
     private long lastNumber = 112L;
     private String prefix;
-    private File ficher;
-    private InvoiceRepositoryInterface invoiceRepositoryMichel;
-    public File getFicher() {
-        return ficher;
-    }
 
-    public void setFicher(File ficher) {
-        this.ficher = ficher;
-    }
+    private InvoiceRepositoryInterface invoiceRepositoryMichel;
+
 
     public long getLastNumber() {
         return lastNumber;

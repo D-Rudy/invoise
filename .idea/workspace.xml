@@ -7,13 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f526d2d9-7af7-447f-9a74-5832b27a886d" name="Changes" comment="Lesson #5 =&gt; IoC">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/fichier.txt" afterDir="false" />
+    <list default="true" id="f526d2d9-7af7-447f-9a74-5832b27a886d" name="Changes" comment="AUTOWIRING_BYNAME_BYTYPE =&gt; Property">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/service/InvoiceServicePrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/service/InvoiceServicePrefix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lesson5" />
+        <entry key="$PROJECT_DIR$" value="lesson6" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -60,7 +57,7 @@
     </option>
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2LmOvfNyWkOIuC42gwfTbxZNEbK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -133,7 +130,7 @@
       <workItem from="1676473025309" duration="453000" />
       <workItem from="1676473672175" duration="255000" />
       <workItem from="1676473947250" duration="10150000" />
-      <workItem from="1676618969589" duration="7965000" />
+      <workItem from="1676618969589" duration="8591000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1676473441819</created>
@@ -184,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676624794847</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Lesson #6 =&gt; Property">
+      <created>1676653592676</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1676653592676</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,6 +243,8 @@
     <MESSAGE value="Lesson #2 =&gt; entity, service, repository" />
     <MESSAGE value="Lesson #3 =&gt; programmation par contrat" />
     <MESSAGE value="Lesson #5 =&gt; IoC" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson #5 =&gt; IoC" />
+    <MESSAGE value="Lesson #6 =&gt; Property" />
+    <MESSAGE value="AUTOWIRING_BYNAME_BYTYPE =&gt; Property" />
+    <option name="LAST_COMMIT_MESSAGE" value="AUTOWIRING_BYNAME_BYTYPE =&gt; Property" />
   </component>
 </project>
