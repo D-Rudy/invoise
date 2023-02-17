@@ -3,6 +3,8 @@ package com.mycompany.invoise;
 import com.mycompany.invoise.controller.InvoiceControllerInterface;
 import com.mycompany.invoise.repository.InvoiceRepositoryInterface;
 import com.mycompany.invoise.service.InvoiceServiceInterface;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.util.Scanner;
 
@@ -11,32 +13,10 @@ import java.util.Scanner;
  */
 public class App {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
 
-        System.out.println("Quel la classe de controller?");
-        String controllerClass = sc.nextLine();
+        ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
 
-        System.out.println("Quel la classe de service?");
-        String serviceClass = sc.nextLine();
-
-        System.out.println("Quel la classe de repository?");
-        String repositoryClass = sc.nextLine();
-
-        InvoiceControllerInterface invoiceController;
-        InvoiceServiceInterface invoiceService;
-        InvoiceRepositoryInterface invoiceRepository;
-
-        try {
-            invoiceController = (InvoiceControllerInterface) Class.forName(controllerClass).getDeclaredConstructor().newInstance();
-            invoiceService = (InvoiceServiceInterface) Class.forName(serviceClass).getDeclaredConstructor().newInstance();
-            invoiceRepository = (InvoiceRepositoryInterface) Class.forName(repositoryClass).getDeclaredConstructor().newInstance();
-        } catch (Exception e) {
-            throw new RuntimeException(e);
-        }
-
-        invoiceController.setInvoiceService(invoiceService);
-        invoiceService.setInvoiceRepository(invoiceRepository);
-
+        InvoiceControllerInterface invoiceController = context.getBean(InvoiceControllerInterface.class);
         invoiceController.createInvoice();
 
     }
