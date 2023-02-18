@@ -13,7 +13,7 @@ import org.springframework.context.annotation.PropertySource;
 public class App {
     public static void main(String[] args) {
 
-        ApplicationContext context = SpringApplication.run(App.class);
+        ApplicationContext context = SpringApplication.run(App.class, args);
         InvoiceControllerInterface invoiceController = context.getBean(InvoiceControllerInterface.class);
         invoiceController.createInvoice();
 
