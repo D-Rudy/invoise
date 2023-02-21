@@ -3,6 +3,10 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:context="http://www.springframework.org/schema/context"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
+<<<<<<< HEAD
+    http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+=======
     http://www.springframework.org/schema/beans/spring-beans.xsd
     http://www.springframework.org/schema/context
     https://www.springframework.org/schema/context/spring-context.xsd">
@@ -15,5 +19,6 @@
     <bean class="com.mycompany.invoise.controller.InvoiceControllerWeb">
     </bean>
     <bean class="com.mycompany.invoise.repository.InvoiceRepositoryDatabase"/>
+>>>>>>> a3d5886c8e1b7cb078d6bedaa489647c5960e525
 
 </beans>

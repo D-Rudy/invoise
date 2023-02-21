@@ -7,11 +7,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f526d2d9-7af7-447f-9a74-5832b27a886d" name="Changes" comment="AUTOWIRING_BYNAME_BYTYPE =&gt; Property">
+    <list default="true" id="f526d2d9-7af7-447f-9a74-5832b27a886d" name="Changes" comment="Spring to spring boot">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/App.java" afterDir="false" />
+=======
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/controller/InvoiceControllerWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/controller/InvoiceControllerWeb.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/service/InvoiceServicePrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/service/InvoiceServicePrefix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+>>>>>>> a3d5886c8e1b7cb078d6bedaa489647c5960e525
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,14 +34,17 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
+<<<<<<< HEAD
+        <entry key="$PROJECT_DIR$" value="Spring_boot" />
+=======
         <entry key="$PROJECT_DIR$" value="ANNOTATION_PROPERTY" />
+>>>>>>> a3d5886c8e1b7cb078d6bedaa489647c5960e525
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;
   }
 }</component>
   <component name="GithubPullRequestsUISettings">
@@ -70,6 +78,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -86,6 +95,7 @@
     "project.structure.side.proportion": "0.0",
     "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "spring.configuration.checksum": "3355765c2d9525f3fca225d151ca9d9b",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -93,7 +103,11 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.mycompany.invoise" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mycompany.invoise" />
       <recent name="com.mycompany.invoise.repository" />
       <recent name="com.mycompany.invoise.service" />
     </key>
@@ -131,7 +145,12 @@
       <workItem from="1676473025309" duration="453000" />
       <workItem from="1676473672175" duration="255000" />
       <workItem from="1676473947250" duration="10150000" />
+<<<<<<< HEAD
+      <workItem from="1676618969589" duration="8591000" />
+      <workItem from="1676707951898" duration="3533000" />
+=======
       <workItem from="1676618969589" duration="9475000" />
+>>>>>>> a3d5886c8e1b7cb078d6bedaa489647c5960e525
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1676473441819</created>
@@ -189,6 +208,51 @@
       <option name="project" value="LOCAL" />
       <updated>1676653592676</updated>
     </task>
+<<<<<<< HEAD
+    <task id="LOCAL-00009" summary="ANNOTATION_CONFIG">
+      <created>1676660034093</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1676660034093</updated>
+    </task>
+    <task id="LOCAL-00010" summary="conflit de dépendance">
+      <created>1676661268762</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1676661268762</updated>
+    </task>
+    <task id="LOCAL-00011" summary="repartition par package">
+      <created>1676661892580</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1676661892580</updated>
+    </task>
+    <task id="LOCAL-00012" summary="repartition par package">
+      <created>1676662519402</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1676662519402</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Bean">
+      <created>1676663142843</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1676663142843</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Spring to spring boot">
+      <created>1676712827471</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1676712827472</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+=======
     <task id="LOCAL-00009" summary="AUTOWIRING_BYNAME_BYTYPE =&gt; Property">
       <created>1676654181908</created>
       <option name="number" value="00009" />
@@ -197,6 +261,7 @@
       <updated>1676654181908</updated>
     </task>
     <option name="localTasksCounter" value="10" />
+>>>>>>> a3d5886c8e1b7cb078d6bedaa489647c5960e525
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,6 +311,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first commit" />
     <MESSAGE value="Lesson #1 =&gt; entity, service, repository" />
     <MESSAGE value="Lesson #2 =&gt; entity, service, repository" />
@@ -253,6 +319,11 @@
     <MESSAGE value="Lesson #5 =&gt; IoC" />
     <MESSAGE value="Lesson #6 =&gt; Property" />
     <MESSAGE value="AUTOWIRING_BYNAME_BYTYPE =&gt; Property" />
-    <option name="LAST_COMMIT_MESSAGE" value="AUTOWIRING_BYNAME_BYTYPE =&gt; Property" />
+    <MESSAGE value="ANNOTATION_CONFIG" />
+    <MESSAGE value="conflit de dépendance" />
+    <MESSAGE value="repartition par package" />
+    <MESSAGE value="Bean" />
+    <MESSAGE value="Spring to spring boot" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring to spring boot" />
   </component>
 </project>
