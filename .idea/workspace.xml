@@ -7,16 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f526d2d9-7af7-447f-9a74-5832b27a886d" name="Changes" comment="ANNOTATION_CONFIG">
+    <list default="true" id="f526d2d9-7af7-447f-9a74-5832b27a886d" name="Changes" comment="repartition par package">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/controller/InvoiceControllerDouchette.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/controller/InvoiceControllerDouchette.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/controller/InvoiceControllerKeyboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/controller/InvoiceControllerKeyboard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/controller/InvoiceControllerWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/controller/InvoiceControllerWeb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/repository/InvoiceRepositoryDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/repository/InvoiceRepositoryDatabase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/repository/InvoiceRepositoryMemory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/repository/InvoiceRepositoryMemory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/service/InvoiceServiceNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/service/InvoiceServiceNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/service/InvoiceServicePrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/service/InvoiceServicePrefix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/AppConfig.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,16 +28,15 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="ANNOTATION_PROPERTY" />
+        <entry key="$PROJECT_DIR$" value="JAVA_CONFIG" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
   }
-}</component>
+}]]></component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -98,7 +91,11 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.mycompany.invoise" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mycompany.invoise" />
       <recent name="com.mycompany.invoise.repository" />
       <recent name="com.mycompany.invoise.service" />
     </key>
@@ -201,7 +198,28 @@
       <option name="project" value="LOCAL" />
       <updated>1676660034093</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="conflit de dépendance">
+      <created>1676661268762</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1676661268762</updated>
+    </task>
+    <task id="LOCAL-00011" summary="repartition par package">
+      <created>1676661892580</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1676661892580</updated>
+    </task>
+    <task id="LOCAL-00012" summary="repartition par package">
+      <created>1676662519402</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1676662519402</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,6 +277,8 @@
     <MESSAGE value="Lesson #6 =&gt; Property" />
     <MESSAGE value="AUTOWIRING_BYNAME_BYTYPE =&gt; Property" />
     <MESSAGE value="ANNOTATION_CONFIG" />
-    <option name="LAST_COMMIT_MESSAGE" value="ANNOTATION_CONFIG" />
+    <MESSAGE value="conflit de dépendance" />
+    <MESSAGE value="repartition par package" />
+    <option name="LAST_COMMIT_MESSAGE" value="repartition par package" />
   </component>
 </project>
