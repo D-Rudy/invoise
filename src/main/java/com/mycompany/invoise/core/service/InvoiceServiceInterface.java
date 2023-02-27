@@ -12,4 +12,6 @@ public interface InvoiceServiceInterface {
 
     List <Invoice> getInvoiceList();
 
+    Invoice getInvoiceByNumber(String number);
+
 }
